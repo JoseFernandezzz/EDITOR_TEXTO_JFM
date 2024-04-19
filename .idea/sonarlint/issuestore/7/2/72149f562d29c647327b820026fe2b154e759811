@@ -1,49 +1,49 @@
 
 Š
-java:S1192ª"FDefine a constant instead of duplicating this literal "Style" 5 times.(“­Ü·8ÙÖÌŠî1J$dd5b4aad-ab9b-427d-a76c-617e7eb298f8
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù‘€ÿÿÿÿÿ8İÖÌŠî1J$b2edc1b0-a9bf-41cc-97f5-ca159463942b
-“	java:S116"RRename this field "Negrita" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öàşr8“ØÌŠî1J$df5644d0-24d2-4549-adc3-6e0cd09d87ab
-“	java:S116"RRename this field "Cursiva" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö–¤F8“ØÌŠî1J$5130481d-d198-4aa2-b3bb-be8fe85e3db3
-–	java:S116"TRename this field "Subrayado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹±ë8“ØÌŠî1J$dac4455e-12f6-41f3-bbf6-0b86b06859ff
-’	java:S116"PRename this field "Menu1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8“ØÌŠî1J$c9e0688a-4f58-4251-8bbf-bdcc7279045a
-’	java:S116"PRename this field "Menu2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8“ØÌŠî1J$139f33f5-7305-47c1-b1ab-47770946b59b
-’	java:S116"PRename this field "Menu3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8“ØÌŠî1J$52c5807f-8b0e-4346-9138-73f2b0291230
-–	java:S116"TRename this field "MenuColor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8“ØÌŠî1J$2d61acb2-3101-4c11-b393-b79a35f77c73
-—	java:S116"URename this field "MenuFuente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8“ØÌŠî1J$e66b2a68-b06e-486f-953d-54c23e6d696c
-—	java:S116"URename this field "MenuTamano" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8“ØÌŠî1J$f36e7413-7e92-4fcc-a705-6bc48f2ecbcb
-‘	java:S116"ORename this field "Rojo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8“ØÌŠî1J$162e7f81-60f0-4eba-a2f4-096d4076c66b
-’	java:S116"PRename this field "Verde" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8“ØÌŠî1J$cc7aa306-d64e-4db2-bd7b-1f1747f591ed
-‘	java:S116"ORename this field "Azul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$e45e2fd3-0f36-45b6-8dbc-876cf12232b5
-’	java:S116"PRename this field "Negro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$abce5ac9-50ef-4de0-808d-1b2218e5e730
-’	java:S116"PRename this field "Serif" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$b3797457-45f6-48a7-8ad0-06ddcb2c1298
-–	java:S116"TRename this field "SansSerif" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$0badf8dc-9fb5-4869-bf32-6014275bacc9
-–	java:S116"TRename this field "MonoSpace" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$7a214801-22fc-40af-9a8f-f8e36f21770c
-’	java:S116"PRename this field "Size1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$f623f037-d843-4b26-9b1c-ec455509cf21
-’	java:S116"PRename this field "Size2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$c6148427-24e5-405e-9533-fc2327b239c1
-’	java:S116"PRename this field "Size3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8”ØÌŠî1J$c68eb398-fe22-457f-a9bf-0a63d1f70dea
-—	java:S116"URename this field "CustomSize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8•ØÌŠî1J$04e36a1a-414e-4d4e-a096-430b78dd14f9
-	java:S116"VRename this field "AreaDeTexto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯š°‚ÿÿÿÿÿ8–ØÌŠî1J$94bdb2ae-e71e-4fa8-aa68-2f6eadb151cb
+java:S1192¨"FDefine a constant instead of duplicating this literal "Style" 5 times.(“­Ü·8ºÛ°“ï1J$669f9afe-7ade-453e-b98a-a6144b3a596e
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù‘€ÿÿÿÿÿ8­®“ï1J$8ac43e52-7100-414c-bbe8-de1475b3e752
+“	java:S116"RRename this field "Negrita" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öàşr8½Ü°“ï1J$bdcf8e84-2623-4e1e-a0eb-7422011de7e3
+“	java:S116"RRename this field "Cursiva" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö–¤F8½Ü°“ï1J$2a9cefdb-d176-48bf-a3f0-bf77d5e04c65
+–	java:S116"TRename this field "Subrayado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹±ë8½Ü°“ï1J$839caec8-48da-4c87-8be9-0f2fe53c1076
+’	java:S116"PRename this field "Menu1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8½Ü°“ï1J$6ff943ac-c84e-49ee-ac77-37ae390e206c
+’	java:S116"PRename this field "Menu2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8½Ü°“ï1J$1f07a299-a0b9-47ca-bcf6-f90ce298ff0a
+’	java:S116"PRename this field "Menu3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8½Ü°“ï1J$c9fd0f1d-c589-48bb-96d8-7a1283a6e210
+–	java:S116"TRename this field "MenuColor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8½Ü°“ï1J$a06d1935-204e-48b4-8283-a7c4e8b59367
+—	java:S116"URename this field "MenuFuente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8½Ü°“ï1J$6e642d60-3f6c-4c71-87a6-4b89d6fa7314
+—	java:S116"URename this field "MenuTamano" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8½Ü°“ï1J$352623e7-3d7e-41f1-81b2-e07bf4003194
+‘	java:S116"ORename this field "Rojo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$c5552d12-960e-480c-8810-961e876ee4db
+’	java:S116"PRename this field "Verde" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$6f5b2aca-2a2f-4983-89ce-59e56f796f32
+‘	java:S116"ORename this field "Azul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$ad237bc1-4383-4452-af48-d3fb7ed3ee6b
+’	java:S116"PRename this field "Negro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$2f5ccd15-88c8-4a53-a19a-930d322d6fa5
+’	java:S116"PRename this field "Serif" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$efe17b6e-eedc-4f77-a185-5f539b9b9fb9
+–	java:S116"TRename this field "SansSerif" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$e406b620-b245-441b-9e5f-1fa4a1163bbf
+–	java:S116"TRename this field "MonoSpace" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$2bfc6c80-35a2-4ec3-831a-b2ccbabaed97
+’	java:S116"PRename this field "Size1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$ef92d910-cdd0-4951-b379-0efeefd5e9ca
+’	java:S116"PRename this field "Size2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$e38560de-2a94-4345-9fcb-90d77f9ee9f2
+’	java:S116"PRename this field "Size3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8¾Ü°“ï1J$a76b6183-8af2-470d-9c24-a3ab5c5f678d
+—	java:S116"URename this field "CustomSize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8¾Ü°“ï1J$8658d16e-1ad0-48b1-ae00-379b01d034da
+	java:S116"VRename this field "AreaDeTexto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯š°‚ÿÿÿÿÿ8¾Ü°“ï1J$5595d069-9d78-4fa5-bfc4-6cc67261219f
 …
-java:S1659"BDeclare "Menu2" and all following declarations on a separate line.(˜éÎí8 ØÌŠî1J$d92c289d-f406-4d53-9911-371bf7df512a
+java:S1659"BDeclare "Menu2" and all following declarations on a separate line.(˜éÎí8ÂÜ°“ï1J$a9f0330c-c227-41f4-8ec7-b9f38541cd75
 Š
-java:S1659"GDeclare "MenuFuente" and all following declarations on a separate line.(“íì8 ØÌŠî1J$d22e6f56-c4a0-42ea-a577-494154886f2e
+java:S1659"GDeclare "MenuFuente" and all following declarations on a separate line.(“íì8ÂÜ°“ï1J$f1bc7e2e-d910-4a34-8a93-eba93ef95b57
 …
-java:S1659"BDeclare "Verde" and all following declarations on a separate line.(‚ÕÅ£8¡ØÌŠî1J$aea19ce9-641f-4ee9-8887-380a4694b0b5
+java:S1659"BDeclare "Verde" and all following declarations on a separate line.(‚ÕÅ£8ÃÜ°“ï1J$6d494579-d95f-4220-9458-96995076d16e
 ‘
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8§ØÌŠî1J$95e20360-a193-4f82-bfab-26f7456b7c99
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ÈÜ°“ï1J$f49ae38e-c312-4c25-b323-f61102dc9634
 z
-java:S1854y"7Remove this useless assignment to local variable "doc".(Éœ»­8´ØÌŠî1J$a244ed09-37d6-4e1e-92f5-58b0ca88b5dd
+java:S1854x"7Remove this useless assignment to local variable "doc".(Éœ»­8ÑÜ°“ï1J$4b979394-0c42-4ea1-8da8-227cd8b3732f
 k
-java:S1481y"(Remove this unused "doc" local variable.(Éœ»­8¶ØÌŠî1J$684a7d6b-da77-4e16-b36c-8c8bd7e0c937
+java:S1481x"(Remove this unused "doc" local variable.(Éœ»­8ÒÜ°“ï1J$21afe45c-1f10-4298-b454-f8faea59c4f0
 y
-java:S1172©"5Remove these unused method parameters "start", "end".(óÏ´8¾ØÌŠî1J$6cad49ea-5e7d-4bb2-911f-cf9e9c4e5f8f
+java:S1172§"5Remove these unused method parameters "start", "end".(óÏ´8×Ü°“ï1J$8488d08a-ffe2-411c-8aac-e71e1ac9264e
 y
-java:S1172·"5Remove these unused method parameters "start", "end".(õš½é8ÄØÌŠî1J$1c2297f2-c654-40a9-ae17-0f4cf34429d1
+java:S1172³"5Remove these unused method parameters "start", "end".(õš½é8ÚÜ°“ï1J$80d0a22f-e9b8-433f-8df2-b9e2357e1ec5
 ~
-java:S1172¾"5Remove these unused method parameters "start", "end".(±¡ú‚ÿÿÿÿÿ8ÆØÌŠî1J$2a2f770d-fd1a-4a30-bc9b-5147d6e09aed
+java:S1172¹"5Remove these unused method parameters "start", "end".(±¡ú‚ÿÿÿÿÿ8ÛÜ°“ï1J$055aaec9-268a-4d83-aac7-5ff09bc25746
 ~
-java:S1172Å"5Remove these unused method parameters "start", "end".(öøƒÛüÿÿÿÿ8ÈØÌŠî1J$cff38d6f-f2d6-4408-8ac5-a2cdbad67563
+java:S1172¿"5Remove these unused method parameters "start", "end".(öøƒÛüÿÿÿÿ8İÜ°“ï1J$e2cc4f81-8fe1-4fcb-b8c5-38992bbf30d7
 n
-java:S1172Î"*Remove this unused method parameter "end".(…µóÒ8ÊØÌŠî1J$78b6ec34-e782-45a5-95f9-4d26df341552
+java:S1172Ç"*Remove this unused method parameter "end".(…µóÒ8ßÜ°“ï1J$17d03672-2410-4901-b764-70f084828d8d
 l
-java:S1125Ò"(Remove the unnecessary boolean literals.(¶ŸÑ´8ÍØÌŠî1J$37c80607-65f6-44d8-9d9d-b2fe74911be4
+java:S1125Ë"(Remove the unnecessary boolean literals.(¶ŸÑ´8àÜ°“ï1J$c856459c-65f3-4789-a192-9921cec63f57

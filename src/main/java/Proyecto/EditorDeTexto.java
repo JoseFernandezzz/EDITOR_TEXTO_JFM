@@ -8,7 +8,6 @@ import java.awt.event.ActionListener;
 
 public class EditorDeTexto extends JFrame implements ActionListener {
 
-   //Variables
     private JButton Negrita;
     private JButton Cursiva;
     private JButton Subrayado;
@@ -16,6 +15,7 @@ public class EditorDeTexto extends JFrame implements ActionListener {
     private JMenu MenuColor, MenuFuente, MenuTamano;
     private JMenuItem Rojo, Verde, Azul, Negro, Serif, SansSerif, MonoSpace, Size1, Size2, Size3, CustomSize;
     private JTextPane AreaDeTexto;
+    private JScrollPane scrollPane;
 
     // Variables de estado para los botones de Negrita y Cursiva
     private boolean negritaActiva = false;
@@ -102,13 +102,12 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         Menu1.add(MenuColor);
         Menu1.setBounds(600, 15, 50, 30);
 
-        // Area de texto
         AreaDeTexto = new JTextPane();
-        AreaDeTexto.setBounds(10, 60, 650, 600);
+        scrollPane = new JScrollPane(AreaDeTexto);
+        scrollPane.setBounds(10, 60, 650, 600);
         AreaDeTexto.setEditable(true);
 
-        //Se agregan a la interfaz
-        add(AreaDeTexto);
+        add(scrollPane);
         add(Negrita);
         add(Cursiva);
         add(Subrayado);
@@ -165,35 +164,30 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         }
     }
 
-    //Tamaño predeterminado
     private void setSizeFuente(int size, int start, int end) {
         Style estilo = AreaDeTexto.addStyle("Style", null);
         StyleConstants.setFontSize(estilo, size);
         AreaDeTexto.setCharacterAttributes(estilo, false);
     }
 
-    //Tamaño Personalizado
     private void setCustomSize(int start, int end) {
         String input = JOptionPane.showInputDialog(null, "Introduce el tamaño de la letra:");
         int newSize = Integer.parseInt(input);
         setSizeFuente(newSize, start, end);
     }
 
-    //FUente
     private void setTipoFuente(String tipo, int start, int end) {
         Style estilo = AreaDeTexto.addStyle("Style", null);
         StyleConstants.setFontFamily(estilo, tipo);
         AreaDeTexto.setCharacterAttributes(estilo, false);
     }
 
-    //Color
     private void setColorFuente(Color color, int start, int end) {
         Style estilo = AreaDeTexto.addStyle("Style", null);
         StyleConstants.setForeground(estilo, color);
         AreaDeTexto.setCharacterAttributes(estilo, false);
     }
 
-   //Estilos
     private void setEstilo(int estilo, int start, int end, boolean activo) {
         StyledDocument doc = AreaDeTexto.getStyledDocument();
         Style estiloTexto = doc.addStyle("Style", null);
@@ -202,7 +196,6 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         AreaDeTexto.setCharacterAttributes(estiloTexto, false);
     }
 
-    //Subrayado
     private void toggleSubrayado(int start, int end) {
         StyledDocument doc = AreaDeTexto.getStyledDocument();
         Element element = doc.getCharacterElement(start);
@@ -214,7 +207,6 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         AreaDeTexto.setCharacterAttributes(estilo, false);
     }
 
-    //Main
     public static void main(String[] args) {
         EditorDeTexto de = new EditorDeTexto();
         de.setVisible(true);
