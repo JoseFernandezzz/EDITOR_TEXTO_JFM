@@ -25,11 +25,20 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         super("Editor de Texto");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
+        JFrame frame = new JFrame("Ventana con Color de Fondo");
+        frame.getContentPane().setBackground(Color.LIGHT_GRAY);
 
         // Estilo
         negrita = new JButton("Negrita");
         cursiva = new JButton("Cursiva");
         subrayado = new JButton("Subrayado");
+
+        negrita.setBackground(Color.black);
+        cursiva.setBackground(Color.black);
+        subrayado.setBackground(Color.black);
+        negrita.setForeground(Color.LIGHT_GRAY);
+        cursiva.setForeground(Color.LIGHT_GRAY);
+        subrayado.setForeground(Color.LIGHT_GRAY);
 
         negrita.setBounds(10, 10, 100, 40);
         cursiva.setBounds(120, 10, 100, 40);
@@ -62,6 +71,11 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         menu2.add(menuFuente);
         menu2.setBounds(400, 15, 50, 30);
 
+        menu2.setBackground(Color.black);
+        menu2.setForeground(Color.LIGHT_GRAY);
+        menuFuente.setBackground(Color.black);
+        menuFuente.setForeground(Color.LIGHT_GRAY);
+
         // Tamaño
         menuTamano = new JMenu("Tamaño");
         size1 = new JMenuItem("12");
@@ -81,6 +95,10 @@ public class EditorDeTexto extends JFrame implements ActionListener {
 
         menu3.add(menuTamano);
         menu3.setBounds(500, 15, 55, 30);
+
+        menu3.setBackground(Color.BLACK);
+        menuTamano.setForeground(Color.LIGHT_GRAY);
+
 
         // Color
         menuColor = new JMenu("Color");
@@ -102,10 +120,17 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         menu1.add(menuColor);
         menu1.setBounds(600, 15, 50, 30);
 
+        menu1.setBackground(Color.black);
+        menu1.setForeground(Color.LIGHT_GRAY);
+        menuColor.setBackground(Color.black);
+        menuColor.setForeground(Color.LIGHT_GRAY);
+
         areaDeTexto = new JTextPane();
         scrollPane = new JScrollPane(areaDeTexto);
         scrollPane.setBounds(10, 60, 650, 600);
         areaDeTexto.setEditable(true);
+
+
 
         add(scrollPane);
         add(negrita);
