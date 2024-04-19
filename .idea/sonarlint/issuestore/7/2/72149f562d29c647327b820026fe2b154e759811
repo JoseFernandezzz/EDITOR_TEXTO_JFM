@@ -1,49 +1,28 @@
 
+
+java:S1192¨"FDefine a constant instead of duplicating this literal "Style" 5 times.(Ôéœôÿÿÿÿÿ8ºÛ°“ï1J$81290bde-85cd-407b-aada-e9006101e26c
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù‘€ÿÿÿÿÿ8­®“ï1J$77875885-842a-4afb-aef9-d9d7fa5b5647
 Š
-java:S1192¨"FDefine a constant instead of duplicating this literal "Style" 5 times.(“­Ü·8ºÛ°“ï1J$669f9afe-7ade-453e-b98a-a6144b3a596e
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù‘€ÿÿÿÿÿ8­®“ï1J$8ac43e52-7100-414c-bbe8-de1475b3e752
-“	java:S116"RRename this field "Negrita" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öàşr8½Ü°“ï1J$bdcf8e84-2623-4e1e-a0eb-7422011de7e3
-“	java:S116"RRename this field "Cursiva" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö–¤F8½Ü°“ï1J$2a9cefdb-d176-48bf-a3f0-bf77d5e04c65
-–	java:S116"TRename this field "Subrayado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹±ë8½Ü°“ï1J$839caec8-48da-4c87-8be9-0f2fe53c1076
-’	java:S116"PRename this field "Menu1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8½Ü°“ï1J$6ff943ac-c84e-49ee-ac77-37ae390e206c
-’	java:S116"PRename this field "Menu2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8½Ü°“ï1J$1f07a299-a0b9-47ca-bcf6-f90ce298ff0a
-’	java:S116"PRename this field "Menu3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÎí8½Ü°“ï1J$c9fd0f1d-c589-48bb-96d8-7a1283a6e210
-–	java:S116"TRename this field "MenuColor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8½Ü°“ï1J$a06d1935-204e-48b4-8283-a7c4e8b59367
-—	java:S116"URename this field "MenuFuente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8½Ü°“ï1J$6e642d60-3f6c-4c71-87a6-4b89d6fa7314
-—	java:S116"URename this field "MenuTamano" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íì8½Ü°“ï1J$352623e7-3d7e-41f1-81b2-e07bf4003194
-‘	java:S116"ORename this field "Rojo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$c5552d12-960e-480c-8810-961e876ee4db
-’	java:S116"PRename this field "Verde" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$6f5b2aca-2a2f-4983-89ce-59e56f796f32
-‘	java:S116"ORename this field "Azul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$ad237bc1-4383-4452-af48-d3fb7ed3ee6b
-’	java:S116"PRename this field "Negro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$2f5ccd15-88c8-4a53-a19a-930d322d6fa5
-’	java:S116"PRename this field "Serif" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$efe17b6e-eedc-4f77-a185-5f539b9b9fb9
-–	java:S116"TRename this field "SansSerif" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$e406b620-b245-441b-9e5f-1fa4a1163bbf
-–	java:S116"TRename this field "MonoSpace" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$2bfc6c80-35a2-4ec3-831a-b2ccbabaed97
-’	java:S116"PRename this field "Size1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$ef92d910-cdd0-4951-b379-0efeefd5e9ca
-’	java:S116"PRename this field "Size2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8½Ü°“ï1J$e38560de-2a94-4345-9fcb-90d77f9ee9f2
-’	java:S116"PRename this field "Size3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8¾Ü°“ï1J$a76b6183-8af2-470d-9c24-a3ab5c5f678d
-—	java:S116"URename this field "CustomSize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÕÅ£8¾Ü°“ï1J$8658d16e-1ad0-48b1-ae00-379b01d034da
-	java:S116"VRename this field "AreaDeTexto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯š°‚ÿÿÿÿÿ8¾Ü°“ï1J$5595d069-9d78-4fa5-bfc4-6cc67261219f
+java:S1659"BDeclare "menu2" and all following declarations on a separate line.(•ÌØúÿÿÿÿ8Íì¹»ï1J$b973698b-350a-4642-af6a-769d77b5ef18
+
+java:S1659"GDeclare "menuFuente" and all following declarations on a separate line.(ƒ’‡Šÿÿÿÿÿ8¢Á»»ï1J$17fc583f-12f6-4383-bbac-392c023882eb
 …
-java:S1659"BDeclare "Menu2" and all following declarations on a separate line.(˜éÎí8ÂÜ°“ï1J$a9f0330c-c227-41f4-8ec7-b9f38541cd75
-Š
-java:S1659"GDeclare "MenuFuente" and all following declarations on a separate line.(“íì8ÂÜ°“ï1J$f1bc7e2e-d910-4a34-8a93-eba93ef95b57
-…
-java:S1659"BDeclare "Verde" and all following declarations on a separate line.(‚ÕÅ£8ÃÜ°“ï1J$6d494579-d95f-4220-9458-96995076d16e
+java:S1659"BDeclare "verde" and all following declarations on a separate line.(’½õÕ8œ•½»ï1J$64be9feb-c1e6-4541-89ee-32194054b70a
 ‘
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ÈÜ°“ï1J$f49ae38e-c312-4c25-b323-f61102dc9634
-z
-java:S1854x"7Remove this useless assignment to local variable "doc".(Éœ»­8ÑÜ°“ï1J$4b979394-0c42-4ea1-8da8-227cd8b3732f
-k
-java:S1481x"(Remove this unused "doc" local variable.(Éœ»­8ÒÜ°“ï1J$21afe45c-1f10-4298-b454-f8faea59c4f0
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ÈÜ°“ï1J$4090f391-3e4e-4feb-b64d-44f20b7017f1
+
+java:S1854x"7Remove this useless assignment to local variable "doc".(úŒÆ†úÿÿÿÿ8ÑÜ°“ï1J$ea34ac3d-b1b7-4adc-9959-b080057f0cb9
+p
+java:S1481x"(Remove this unused "doc" local variable.(úŒÆ†úÿÿÿÿ8ÒÜ°“ï1J$3683e81a-28e6-4331-bfca-f22e78f97147
 y
-java:S1172§"5Remove these unused method parameters "start", "end".(óÏ´8×Ü°“ï1J$8488d08a-ffe2-411c-8aac-e71e1ac9264e
+java:S1172§"5Remove these unused method parameters "start", "end".(óÏ´8×Ü°“ï1J$1db8e601-306c-4716-8d3e-10727f1bd7f8
 y
-java:S1172³"5Remove these unused method parameters "start", "end".(õš½é8ÚÜ°“ï1J$80d0a22f-e9b8-433f-8df2-b9e2357e1ec5
+java:S1172³"5Remove these unused method parameters "start", "end".(õš½é8ÚÜ°“ï1J$175cf51a-0ce5-45b6-931d-a6bebdf8f984
 ~
-java:S1172¹"5Remove these unused method parameters "start", "end".(±¡ú‚ÿÿÿÿÿ8ÛÜ°“ï1J$055aaec9-268a-4d83-aac7-5ff09bc25746
+java:S1172¹"5Remove these unused method parameters "start", "end".(±¡ú‚ÿÿÿÿÿ8ÛÜ°“ï1J$51a2fdf4-8b6c-4aa2-92d1-250a8470c8e6
 ~
-java:S1172¿"5Remove these unused method parameters "start", "end".(öøƒÛüÿÿÿÿ8İÜ°“ï1J$e2cc4f81-8fe1-4fcb-b8c5-38992bbf30d7
+java:S1172¿"5Remove these unused method parameters "start", "end".(öøƒÛüÿÿÿÿ8İÜ°“ï1J$deb4fc35-bccf-4c64-9ed4-5bd178d4da20
 n
-java:S1172Ç"*Remove this unused method parameter "end".(…µóÒ8ßÜ°“ï1J$17d03672-2410-4901-b764-70f084828d8d
+java:S1172Ç"*Remove this unused method parameter "end".(…µóÒ8ßÜ°“ï1J$116631eb-638f-4725-9dd7-8609e7bcb0ac
 l
-java:S1125Ë"(Remove the unnecessary boolean literals.(¶ŸÑ´8àÜ°“ï1J$c856459c-65f3-4789-a192-9921cec63f57
+java:S1125Ë"(Remove the unnecessary boolean literals.(¶ŸÑ´8àÜ°“ï1J$9cec0b66-7f1a-45a8-95da-60cb218400c7

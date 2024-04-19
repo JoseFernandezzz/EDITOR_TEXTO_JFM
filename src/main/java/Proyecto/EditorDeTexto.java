@@ -8,13 +8,13 @@ import java.awt.event.ActionListener;
 
 public class EditorDeTexto extends JFrame implements ActionListener {
 
-    private JButton Negrita;
-    private JButton Cursiva;
-    private JButton Subrayado;
-    private JMenuBar Menu1, Menu2, Menu3;
-    private JMenu MenuColor, MenuFuente, MenuTamano;
-    private JMenuItem Rojo, Verde, Azul, Negro, Serif, SansSerif, MonoSpace, Size1, Size2, Size3, CustomSize;
-    private JTextPane AreaDeTexto;
+    private JButton negrita;
+    private JButton cursiva;
+    private JButton subrayado;
+    private JMenuBar menu1, menu2, menu3;
+    private JMenu menuColor, menuFuente, menuTamano;
+    private JMenuItem rojo, verde, azul, negro, serif, sansSerif, monoSpace, size1, size2, size3, customSize;
+    private JTextPane areaDeTexto;
     private JScrollPane scrollPane;
 
     // Variables de estado para los botones de Negrita y Cursiva
@@ -27,147 +27,147 @@ public class EditorDeTexto extends JFrame implements ActionListener {
         setLayout(null);
 
         // Estilo
-        Negrita = new JButton("Negrita");
-        Cursiva = new JButton("Cursiva");
-        Subrayado = new JButton("Subrayado");
+        negrita = new JButton("Negrita");
+        cursiva = new JButton("Cursiva");
+        subrayado = new JButton("Subrayado");
 
-        Negrita.setBounds(10, 10, 100, 40);
-        Cursiva.setBounds(120, 10, 100, 40);
-        Subrayado.setBounds(230, 10, 100, 40);
+        negrita.setBounds(10, 10, 100, 40);
+        cursiva.setBounds(120, 10, 100, 40);
+        subrayado.setBounds(230, 10, 100, 40);
 
-        Negrita.addActionListener(this);
-        Cursiva.addActionListener(this);
-        Subrayado.addActionListener(this);
+        negrita.addActionListener(this);
+        cursiva.addActionListener(this);
+        subrayado.addActionListener(this);
 
         // Menu
-        Menu1 = new JMenuBar();
-        Menu2 = new JMenuBar();
-        Menu3 = new JMenuBar();
+        menu1 = new JMenuBar();
+        menu2 = new JMenuBar();
+        menu3 = new JMenuBar();
 
         // Fuente
-        MenuFuente = new JMenu("Fuente");
+        menuFuente = new JMenu("Fuente");
 
-        Serif = new JMenuItem("Serif");
-        SansSerif = new JMenuItem("SansSerif");
-        MonoSpace = new JMenuItem("MonoSpace");
+        serif = new JMenuItem("Serif");
+        sansSerif = new JMenuItem("SansSerif");
+        monoSpace = new JMenuItem("MonoSpace");
 
-        Serif.addActionListener(this);
-        SansSerif.addActionListener(this);
-        MonoSpace.addActionListener(this);
+        serif.addActionListener(this);
+        sansSerif.addActionListener(this);
+        monoSpace.addActionListener(this);
 
-        MenuFuente.add(Serif);
-        MenuFuente.add(SansSerif);
-        MenuFuente.add(MonoSpace);
+        menuFuente.add(serif);
+        menuFuente.add(sansSerif);
+        menuFuente.add(monoSpace);
 
-        Menu2.add(MenuFuente);
-        Menu2.setBounds(400, 15, 50, 30);
+        menu2.add(menuFuente);
+        menu2.setBounds(400, 15, 50, 30);
 
         // Tamaño
-        MenuTamano = new JMenu("Tamaño");
-        Size1 = new JMenuItem("12");
-        Size2 = new JMenuItem("14");
-        Size3 = new JMenuItem("20");
-        CustomSize = new JMenuItem("Personalizado");
+        menuTamano = new JMenu("Tamaño");
+        size1 = new JMenuItem("12");
+        size2 = new JMenuItem("14");
+        size3 = new JMenuItem("20");
+        customSize = new JMenuItem("Personalizado");
 
-        Size1.addActionListener(this);
-        Size2.addActionListener(this);
-        Size3.addActionListener(this);
-        CustomSize.addActionListener(this);
+        size1.addActionListener(this);
+        size2.addActionListener(this);
+        size3.addActionListener(this);
+        customSize.addActionListener(this);
 
-        MenuTamano.add(Size1);
-        MenuTamano.add(Size2);
-        MenuTamano.add(Size3);
-        MenuTamano.add(CustomSize);
+        menuTamano.add(size1);
+        menuTamano.add(size2);
+        menuTamano.add(size3);
+        menuTamano.add(customSize);
 
-        Menu3.add(MenuTamano);
-        Menu3.setBounds(500, 15, 55, 30);
+        menu3.add(menuTamano);
+        menu3.setBounds(500, 15, 55, 30);
 
         // Color
-        MenuColor = new JMenu("Color");
-        Rojo = new JMenuItem("Rojo");
-        Verde = new JMenuItem("Verde");
-        Azul = new JMenuItem("Azul");
-        Negro = new JMenuItem("Negro");
+        menuColor = new JMenu("Color");
+        rojo = new JMenuItem("Rojo");
+        verde = new JMenuItem("Verde");
+        azul = new JMenuItem("Azul");
+        negro = new JMenuItem("Negro");
 
-        Rojo.addActionListener(this);
-        Verde.addActionListener(this);
-        Azul.addActionListener(this);
-        Negro.addActionListener(this);
+        rojo.addActionListener(this);
+        verde.addActionListener(this);
+        azul.addActionListener(this);
+        negro.addActionListener(this);
 
-        MenuColor.add(Rojo);
-        MenuColor.add(Verde);
-        MenuColor.add(Azul);
-        MenuColor.add(Negro);
+        menuColor.add(rojo);
+        menuColor.add(verde);
+        menuColor.add(azul);
+        menuColor.add(negro);
 
-        Menu1.add(MenuColor);
-        Menu1.setBounds(600, 15, 50, 30);
+        menu1.add(menuColor);
+        menu1.setBounds(600, 15, 50, 30);
 
-        AreaDeTexto = new JTextPane();
-        scrollPane = new JScrollPane(AreaDeTexto);
+        areaDeTexto = new JTextPane();
+        scrollPane = new JScrollPane(areaDeTexto);
         scrollPane.setBounds(10, 60, 650, 600);
-        AreaDeTexto.setEditable(true);
+        areaDeTexto.setEditable(true);
 
         add(scrollPane);
-        add(Negrita);
-        add(Cursiva);
-        add(Subrayado);
-        add(Menu1);
-        add(Menu2);
-        add(Menu3);
+        add(negrita);
+        add(cursiva);
+        add(subrayado);
+        add(menu1);
+        add(menu2);
+        add(menu3);
     }
 
     public void actionPerformed(ActionEvent e) {
-        StyledDocument doc = AreaDeTexto.getStyledDocument();
-        int start = AreaDeTexto.getSelectionStart();
-        int end = AreaDeTexto.getSelectionEnd();
+        StyledDocument doc = areaDeTexto.getStyledDocument();
+        int start = areaDeTexto.getSelectionStart();
+        int end = areaDeTexto.getSelectionEnd();
 
         // Tamaño
-        if (e.getSource() == Size1) {
+        if (e.getSource() == size1) {
             setSizeFuente(12, start, end);
-        } else if (e.getSource() == Size2) {
+        } else if (e.getSource() == size2) {
             setSizeFuente(14, start, end);
-        } else if (e.getSource() == Size3) {
+        } else if (e.getSource() == size3) {
             setSizeFuente(20, start, end);
-        } else if (e.getSource() == CustomSize) {
+        } else if (e.getSource() == customSize) {
             setCustomSize(start, end);
         }
 
         // Fuente
-        if (e.getSource() == SansSerif) {
+        if (e.getSource() == sansSerif) {
             setTipoFuente("SansSerif", start, end);
-        } else if (e.getSource() == Serif) {
+        } else if (e.getSource() == serif) {
             setTipoFuente("Serif", start, end);
-        } else if (e.getSource() == MonoSpace) {
+        } else if (e.getSource() == monoSpace) {
             setTipoFuente("MonoSpace", start, end);
         }
 
         // Color
-        if (e.getSource() == Rojo) {
+        if (e.getSource() == rojo) {
             setColorFuente(Color.RED, start, end);
-        } else if (e.getSource() == Verde) {
+        } else if (e.getSource() == verde) {
             setColorFuente(Color.GREEN, start, end);
-        } else if (e.getSource() == Azul) {
+        } else if (e.getSource() == azul) {
             setColorFuente(Color.BLUE, start, end);
-        } else if (e.getSource() == Negro) {
+        } else if (e.getSource() == negro) {
             setColorFuente(Color.BLACK, start, end);
         }
 
         // Estilo
-        if (e.getSource() == Negrita) {
+        if (e.getSource() == negrita) {
             negritaActiva = !negritaActiva;
             setEstilo(Font.BOLD, start, end, negritaActiva);
-        } else if (e.getSource() == Cursiva) {
+        } else if (e.getSource() == cursiva) {
             cursivaActiva = !cursivaActiva;
             setEstilo(Font.ITALIC, start, end, cursivaActiva);
-        } else if (e.getSource() == Subrayado) {
+        } else if (e.getSource() == subrayado) {
             toggleSubrayado(start, end);
         }
     }
 
     private void setSizeFuente(int size, int start, int end) {
-        Style estilo = AreaDeTexto.addStyle("Style", null);
+        Style estilo = areaDeTexto.addStyle("Style", null);
         StyleConstants.setFontSize(estilo, size);
-        AreaDeTexto.setCharacterAttributes(estilo, false);
+        areaDeTexto.setCharacterAttributes(estilo, false);
     }
 
     private void setCustomSize(int start, int end) {
@@ -177,34 +177,34 @@ public class EditorDeTexto extends JFrame implements ActionListener {
     }
 
     private void setTipoFuente(String tipo, int start, int end) {
-        Style estilo = AreaDeTexto.addStyle("Style", null);
+        Style estilo = areaDeTexto.addStyle("Style", null);
         StyleConstants.setFontFamily(estilo, tipo);
-        AreaDeTexto.setCharacterAttributes(estilo, false);
+        areaDeTexto.setCharacterAttributes(estilo, false);
     }
 
     private void setColorFuente(Color color, int start, int end) {
-        Style estilo = AreaDeTexto.addStyle("Style", null);
+        Style estilo = areaDeTexto.addStyle("Style", null);
         StyleConstants.setForeground(estilo, color);
-        AreaDeTexto.setCharacterAttributes(estilo, false);
+        areaDeTexto.setCharacterAttributes(estilo, false);
     }
 
     private void setEstilo(int estilo, int start, int end, boolean activo) {
-        StyledDocument doc = AreaDeTexto.getStyledDocument();
+        StyledDocument doc = areaDeTexto.getStyledDocument();
         Style estiloTexto = doc.addStyle("Style", null);
         StyleConstants.setBold(estiloTexto, activo && estilo == Font.BOLD);
         StyleConstants.setItalic(estiloTexto, activo && estilo == Font.ITALIC);
-        AreaDeTexto.setCharacterAttributes(estiloTexto, false);
+        areaDeTexto.setCharacterAttributes(estiloTexto, false);
     }
 
     private void toggleSubrayado(int start, int end) {
-        StyledDocument doc = AreaDeTexto.getStyledDocument();
+        StyledDocument doc = areaDeTexto.getStyledDocument();
         Element element = doc.getCharacterElement(start);
         AttributeSet as = element.getAttributes();
         boolean isUnderline = (StyleConstants.isUnderline(as)) ? false : true;
 
-        Style estilo = AreaDeTexto.addStyle("Style", null);
+        Style estilo = areaDeTexto.addStyle("Style", null);
         StyleConstants.setUnderline(estilo, isUnderline);
-        AreaDeTexto.setCharacterAttributes(estilo, false);
+        areaDeTexto.setCharacterAttributes(estilo, false);
     }
 
     public static void main(String[] args) {
