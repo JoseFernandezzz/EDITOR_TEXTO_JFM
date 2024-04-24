@@ -1,28 +1,28 @@
 
 
-java:S1192Á"FDefine a constant instead of duplicating this literal "Style" 5 times.(Ôéœôÿÿÿÿÿ8éâ›½ï1J$152418b7-bc33-44f3-998b-848092f2703c
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù‘€ÿÿÿÿÿ8íâ›½ï1J$ee01e3b5-5143-4097-b732-283e6eaf8fb6
-Š
-java:S1659"BDeclare "menu2" and all following declarations on a separate line.(•ÌØúÿÿÿÿ8Şã›½ï1J$30e42c49-efb8-44f8-9f55-519d0c55fc36
+java:S1192Á"FDefine a constant instead of duplicating this literal "Style" 5 times.(Ôéœôÿÿÿÿÿ8¨§³„ñ1J$5d2f812d-a85d-49f0-ad65-136a9fe53b61
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ù‘€ÿÿÿÿÿ8¯§³„ñ1J$6e0f8944-7771-4677-a6a8-7eaffd05074e
+d
+java:S1659"BDeclare "menu2" and all following declarations on a separate line.(•ÌØúÿÿÿÿ8âÂŞ„ñ1
 
-java:S1659"GDeclare "menuFuente" and all following declarations on a separate line.(ƒ’‡Šÿÿÿÿÿ8Şã›½ï1J$43cfedfd-c24e-4cac-9b7e-db5a82d49135
+java:S1659"GDeclare "menuFuente" and all following declarations on a separate line.(ƒ’‡Šÿÿÿÿÿ8ô§³„ñ1J$dbc8e59d-5676-4be6-900f-00721a741244
 …
-java:S1659"BDeclare "verde" and all following declarations on a separate line.(’½õÕ8Şã›½ï1J$47e4db66-4728-4ec3-8afb-7934ee83c88a
+java:S1659"BDeclare "verde" and all following declarations on a separate line.(’½õÕ8õ§³„ñ1J$d533a27e-4c8d-4077-a6e7-7a987e288339
 ‘
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ãã›½ï1J$eb35bc4b-e56a-4789-bb1f-75795c00b442
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ƒ¨³„ñ1J$6d3a1b50-d567-4796-b8c4-b245d9d5d30e
 €
-java:S1854‘"7Remove this useless assignment to local variable "doc".(úŒÆ†úÿÿÿÿ8íã›½ï1J$737d55a6-78c3-4b03-b637-5bd730630e3b
+java:S1854‘"7Remove this useless assignment to local variable "doc".(úŒÆ†úÿÿÿÿ8¶¨³„ñ1J$af830c5c-e12d-4802-92f5-200d2b4c2d9e
 q
-java:S1481‘"(Remove this unused "doc" local variable.(úŒÆ†úÿÿÿÿ8îã›½ï1J$3f695fc4-61cd-47ba-b064-0cd37e152a5a
+java:S1481‘"(Remove this unused "doc" local variable.(úŒÆ†úÿÿÿÿ8¹¨³„ñ1J$2d3abb40-c4df-411a-ae37-99f21bcac6ca
 y
-java:S1172À"5Remove these unused method parameters "start", "end".(óÏ´8óã›½ï1J$6ec59331-1f48-4dda-ab86-7f3809cdc0f3
+java:S1172À"5Remove these unused method parameters "start", "end".(óÏ´8ã¨³„ñ1J$e518665a-3926-4540-aa23-7c78887bc1df
 y
-java:S1172Ì"5Remove these unused method parameters "start", "end".(õš½é8õã›½ï1J$3ff82aad-4bde-4ea1-be01-0bb799105709
+java:S1172Ì"5Remove these unused method parameters "start", "end".(õš½é8ç¨³„ñ1J$9797bac4-4f29-43ef-8cfc-a9deb9174272
 ~
-java:S1172Ò"5Remove these unused method parameters "start", "end".(±¡ú‚ÿÿÿÿÿ8öã›½ï1J$127607ff-2bc5-4272-907b-748ac75139d2
+java:S1172Ò"5Remove these unused method parameters "start", "end".(±¡ú‚ÿÿÿÿÿ8ì¨³„ñ1J$aa366393-2a97-42f0-9b46-5fe819e9feee
 ~
-java:S1172Ø"5Remove these unused method parameters "start", "end".(öøƒÛüÿÿÿÿ8÷ã›½ï1J$93297470-008e-442f-8f42-1d556969d48f
+java:S1172Ø"5Remove these unused method parameters "start", "end".(öøƒÛüÿÿÿÿ8ƒÑ³„ñ1J$3400cd99-40de-43d2-959d-ec765379b2ba
 n
-java:S1172à"*Remove this unused method parameter "end".(…µóÒ8ùã›½ï1J$2b197a0d-1ff8-417a-a5ec-7f579f5d771f
+java:S1172à"*Remove this unused method parameter "end".(…µóÒ8ò¨³„ñ1J$6be3ce75-683c-47c1-bfa2-baf9007a8baf
 l
-java:S1125ä"(Remove the unnecessary boolean literals.(¶ŸÑ´8üã›½ï1J$3e623936-491f-451f-850d-8e681ba7a37d
+java:S1125ä"(Remove the unnecessary boolean literals.(¶ŸÑ´8÷¨³„ñ1J$ef10151b-9196-4d44-b229-c11e18feb442

@@ -7,3 +7,5 @@ Y
 )src/main/java/Proyecto/EditorDeTexto.java,7\2\72149f562d29c647327b820026fe2b154e759811
 Y
 )src/main/java/Proyecto/EditorDeTexto.form,d\5\d5266fe1f41e0d491b29ca6b36787983f9c501e1
+P
+ src/main/java/Proyecto/README.md,8\a\8ad776b741a9f8bec0b8b6f494342f925a81d9cb
